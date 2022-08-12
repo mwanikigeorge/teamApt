@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+     <!-- loader screen -->
+    <div id="loading">
+      <div class="h-full w-full flex justify-center items-center text-orange-300">
+        Loading...
+        </div>
+      </div>
+    <section class="app-wrapper h-screen overflow-hidden relative bg-blue-900 text-white">
+    
+      <header class="p-5">
+        <div class="container mx-auto flex justify-between items-center">
+          <div class="logo w-10">
+            <img src="images/logo.png" alt="Vite Logo" />
+          </div>
+          <div class="nav-links">
+            <a href="#" class="nav-link">
+              <img src="images/prof.svg" alt="Settings Icon" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="top-stars absolute top-32">
+        <img class="w-4/5 mx-auto" src="images/topstars.png" alt="star images">
+      </div>
+<div class="container mx-auto text-center relative z-10">
+        <h1 class="text-7xl text-white">Unlock to <br> <span class="font-bold">Power your dreams</span></h1>
+
+        <p class="mt-8">Stand a chance to win <br> <span>N3,000,000</span> everyday for the next 5 days</p>
+
+        <div class="how-to p-5  max-w-md mt-7 mx-auto">
+          <h3 class="font-semibold text-base text-center mb-4">🚀 How To Play</h3>
+          <ol class="list-decimal ml-5  text-left text-sm">
+            <li>Guess the right combination of numbers</li>
+            <li>Win N3,000,000 instantly</li>
+          </ol>
+          <p class="text-sm my-4 text-left">Sounds unbelievable? Well, guess right & see for yourself!</p>
+          <div class="p-3 flex gap-2 bg-black/30 ">
+            <div class="bulb-icon">
+              <img class="w-8" src="images/bulb.svg" alt="Bulb Icon" />
+              </div>
+            <div class="bulb-text">
+              <p class="text-xs text-left">Think well before you guess. You have only 2 attempts per day and even after you wi, you can come back the next day to try for another jackpot!</p>
+          </div>
+        </div>
+    </div>
+    <button class="bg-orange-400 text-white text-2xl mt-8 capitalize rounded py-2 px-8 text-center font-semibold">Play the game <b class="ml-4">></b></button>
+    </div>
+    <div class="banner-deco w-full h-full z-0  bottom-0">
+    </div>
+    </section>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
