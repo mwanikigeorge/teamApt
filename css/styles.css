@@ -15,7 +15,7 @@
 }
 
 .app-wrapper {
-  background-image: url("/images/background.jpg");
+  background-image: url("/images/bg.jpg");
   @apply bg-cover bg-center bg-no-repeat;
 }
 
@@ -33,7 +33,7 @@
 .banner-deco {
   position: absolute;
   bottom: -15px;
-  background-image: url("/images/coinpot.png"), url("/images/sunrays.png");
+  background-image: url("/images/potcoin.png"), url("/images/sun.png");
   @apply bg-no-repeat bg-center;
   background-position: bottom center;
   background-size: 80%, 180%;
